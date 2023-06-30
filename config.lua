@@ -17,9 +17,11 @@ Config.Elevators = {
                 width = 5,
                 length = 4
             },
-            groups = {-- Job locks
+            groups = {-- Job/Gang/CID locks
                 'police',
-                'ambulance'
+                'ambulance',
+                'ballas',
+                'OVL48203'
             },
         },
         [2] = {
