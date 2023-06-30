@@ -89,7 +89,7 @@ AddEventHandler('wasabi_elevator:openMenu', function(data)
         elseif v.groups then
             local found
             for i=1, #v.groups do
-                if PlayerData.job.name == v.groups[i] then
+                       if PlayerData.job.name == v.groups[i] or PlayerData.gang.name == v.groups[i] or PlayerData.citizenid == v.groups[i] then
                     found = true
                 end
             end
